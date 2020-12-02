@@ -11,6 +11,7 @@ Firmware for the SAM D11 used as a debugger/VCP interface on some boards is avai
 * GigaDevice GD32F407V (will probably work for STM32F407 as well)
 * Lattice LCMXO256C
 * Lattice LCMXO2-2000HC
+* Nuvoton M484SIDAE
 
 ### Errata
 
@@ -19,7 +20,7 @@ but I will not know about them until the boards arrive. Those issues will not be
 the boards are really broken and I need to reorder them, or I want to reorder them for some other reason.
 
 Below is a list of known issues:
-1. GD32F407V - BOOT0 (pin 94) should be pulled down by a 10 KOhm resistor. This is an easy fix, there is a groud pour near the jumper.
+1. GD32F407V - BOOT0 (pin 94) should be pulled down by a 10 kOhm resistor. This is an easy fix, there is a groud pour near the jumper.
 
 
 
