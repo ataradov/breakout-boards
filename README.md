@@ -12,6 +12,7 @@ Firmware for the SAM D11 used as a debugger/VCP interface on some boards is avai
 * Lattice LCMXO256C
 * Lattice LCMXO2-2000HC
 * Nuvoton M484SIDAE
+* Atmel SAMD11 USB Test Board
 
 ### Errata
 
@@ -21,6 +22,7 @@ the boards are really broken and I need to reorder them, or I want to reorder th
 
 Below is a list of known issues:
 1. GD32F407V - BOOT0 (pin 94) should be pulled down by a 10 kOhm resistor. This is an easy fix, there is a groud pour near the jumper.
+2. SAMD11 USB Test Board - Switch footprint is slightly off (mounting pads are wider than on a real switch).
 
 
 
