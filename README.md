@@ -13,6 +13,7 @@ Firmware for the SAM D11 used as a debugger/VCP interface on some boards is avai
 * Lattice LCMXO2-2000HC
 * Nuvoton M484SIDAE
 * Atmel SAMD11 USB Test Board
+* Atmel SAMD11 Nano - full breakout with USB connector
 * Raspberry Pi RP2040
 
 ### Errata
